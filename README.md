@@ -37,7 +37,7 @@ Behind it: an OpenAlex-backed corpus of ~2k faculty and ~70k papers per discipli
 
 `Express` · `TypeScript` · `Neon Postgres + pgvector` · `Clerk` · `Anthropic` · `Fly.io` · `Vercel`
 
-### 🧠 [Codexa](https://codexa.vercel.app) — engineering intelligence platform
+### 🧠 [Codexa](https://codexa-rose.vercel.app) — engineering intelligence platform
 Learns *how* an engineer thinks across three pillars — **Algorithms**, **System Design**, **AI Engineering** — and continuously answers one question: *what is the single best thing I should learn next?*
 
 Built around a knowledge graph and a three-tier skill detector, so it shows the **why** behind a score, not just the score. Design closer to Linear/Cursor than to Coursera.
@@ -49,24 +49,24 @@ A community-first math app: curated problems worth thinking about, rather than a
 
 `Next.js 16` · `React 19` · `Expo` · `KaTeX` · `Clerk` · `Neon`
 
-### 🚗 [Commute Pulse](https://commute-pulse.vercel.app) — live traffic, three ways
+### 🚗 [Commute Pulse](https://commute-pulse-gamma.vercel.app) — live traffic, three ways
 One-tap live drive times, target-arrival alarms that back-calculate *when to leave* (`departBy = arrival − liveDuration − buffer`) on a 10-minute cron, and an SMS bot that answers `status` with your current commute. Multi-stop optimizer deep-links straight into Google Maps.
 
 `Next.js` · `Expo` · `Google Routes API` · `Twilio` · `Vercel Cron`
 
-### 🌿 [Willow](https://willow.vercel.app) — AI recovery companion
+### 🌿 [Willow](https://willow-six-ashen.vercel.app) — AI recovery companion
 Presence at the vulnerable moment, not streak-counting. Starts with nicotine/vaping.
 
 The architecture is a product argument: **safety is the spine, not the ER.** Every inbound message is screened for crisis language before anything else runs, and every word the model produces passes an output guard that can never assert a reassuring risk verdict as fact. All intelligence is server-side, so the guard cannot be bypassed by a client.
 
 `Express` · `Expo` · `Clerk` · `Neon` · `Anthropic`
 
-### 🕯️ Solace — voice-first companion for loneliness and low mood
+### 🕯️ [Solace](https://solace-web-pied.vercel.app) — voice-first companion for loneliness and low mood
 A 24/7 conversational companion, wellness and companionship rather than treatment, with the same non-bypassable safety spine intercepting crisis on every turn and routing to real help. Runs end-to-end keyless in mock mode — no API keys, no database — so the full loop is testable by anyone.
 
 `Express` · `Expo` · `TypeScript`
 
-### 🍽️ [Meal Planner AI](https://meal-planner-ai.vercel.app) — meal plans and calorie math
+### 🍽️ [Meal Planner AI](https://meal-planner-ai-gilt.vercel.app) — meal plans and calorie math
 Preference-aware meal planning with a shopping cart and calorie calculator on a Go + Node backend.
 
 `Go` · `Node` · `React` · `Docker`

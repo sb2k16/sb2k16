@@ -30,7 +30,7 @@ Two loops, same operation count, same `O(n)`. One of them is thirty to sixty tim
 
 ## 🚀 Things I've built
 
-### 🔭 [Siddhanta](https://siddhanta-chi.vercel.app) — graduate research launchpad
+### 🔭 [Siddhanta](https://siddhantaresearch.com) — graduate research launchpad
 Automates the grad-school outreach pipeline for prospective **Mathematics** and **Computer Science** applicants. It ingests a student's manuscript, extracts its mathematical footprint into a semantic research vector, matches that vector against thousands of active faculty, flags reviewer-risk gaps in the work, and drafts precise cold outreach.
 
 Behind it: an OpenAlex-backed corpus of ~2k faculty and ~70k papers per discipline, embedded and searched with **pgvector** centroids, plus an NSF grant pipeline that scores each lab's funding health.

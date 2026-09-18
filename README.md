@@ -30,6 +30,13 @@ Two loops, same operation count, same `O(n)`. One of them is thirty to sixty tim
 
 ## 🚀 Things I've built
 
+### 🧮 [AlgoTutor](https://algo-tutor-six.vercel.app) — watch the algorithm, not the slide
+The companion app to the book. **70 algorithms** implemented in **C++** — not simulated in JavaScript. The engine runs the real code and emits one NDJSON event per step; the browser replays that trace, so the animation you scrub through *is* the execution, line-synced with the source.
+
+Around the player: an AI tutor grounded in the book (RAG over the chapter text), a mock-interview mode, a weekly themed problem marathon with a leaderboard, and a mastery model that tracks concepts rather than problems solved and diagnoses what's actually weak. Code runs in six languages against real compilers.
+
+`C++` · `Express` · `React` · `Vite` · `Expo` · `Clerk` · `Neon` · `Anthropic` · `Vercel`
+
 ### 🔭 [Siddhanta](https://siddhantaresearch.com) — graduate research launchpad
 Automates the grad-school outreach pipeline for prospective **Mathematics** and **Computer Science** applicants. It ingests a student's manuscript, extracts its mathematical footprint into a semantic research vector, matches that vector against thousands of active faculty, flags reviewer-risk gaps in the work, and drafts precise cold outreach.
 

@@ -1,14 +1,54 @@
 <h1 align="center">Souvik Bose</h1>
 
 <p align="center">
-  Senior Software Engineer at <b>AWS — Search Services</b> · Data Prepper, OpenSearch Ingestion.<br>
+  Senior Software Engineer at <b>AWS — OpenSearch</b> · OpenSearch Ingestion, Data Prepper, streaming infrastructure.<br>
+  20+ years building distributed systems and backends — at AWS, Walmart (Jet.com), on Wall Street, and at Adobe.<br>
   I build systems that have to be fast, and products that have to be honest about <i>why</i> they say what they say.
 </p>
 
 <p align="center">
   <a href="https://data-structures-on-systems.vercel.app"><img alt="Book" src="https://img.shields.io/badge/📖_Data_Structures_on_Systems-read_free-2a78d6?style=for-the-badge"></a>
   <a href="https://www.linkedin.com/in/souvik-bose-65b9485/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+  <a href="mailto:souvik04in@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-souvik04in@gmail.com-555?style=for-the-badge&logo=gmail&logoColor=white"></a>
 </p>
+
+---
+
+## 👋 About
+
+I architect and operate customer-facing ingestion and streaming infrastructure at AWS — **OpenSearch Ingestion**, **Data Prepper**, **Apache Flink**, **Kinesis** and **Spark** — and own the parts that are easy to get wrong: latency, reliability, and metering correctness. I'm an active maintainer of the open-source **[Data Prepper](https://github.com/opensearch-project/data-prepper)** project.
+
+**Recent work at AWS**
+- Led the architecture of a **control-plane overhaul for OpenSearch Ingestion**, introducing warm pooling that cut CRUD latency by **more than 50%**.
+- Owned the redesign of the **OpenSearch Ingestion metering pipeline** — **99.99%** metering uptime and **30%** fewer billing-related customer complaints.
+- Designed and optimized **Apache Flink** pipelines publishing real-time metrics from Kinesis to customer accounts; partitioning and horizontal scaling cut backpressure escalations by **more than 75%**.
+- Resolved **25+ critical issues** in open-source Data Prepper to improve ingestion-pipeline reliability for AWS customers.
+- Built a **RAG conversational agent** proof-of-concept on Data Prepper, Bedrock and OpenSearch.
+- Launched a **billing anomaly detection** system on Apache Spark over Cost and Usage Report data, and led the regional expansion of AWS Billing Insights.
+- Published a public article on efficient **CloudWatch log ingestion with OpenSearch Ingestion**, and an internal white paper on joining and denormalizing relational data with it.
+
+### 💼 Experience
+
+| | Role | |
+|---|---|---|
+| **Amazon Web Services** — OpenSearch | Senior Software Engineer (L6) | 2020 – present |
+| **Jet.com (Walmart)** | Senior Software Engineer — microservices migration, Prometheus observability across 75+ services | 2017 – 2020 |
+| **Tradeweb Markets** | Software Development Engineer — high-throughput bulk swap trading | 2012 – 2017 |
+| **Verition Fund Management** | Software Development Engineer — market-data ingestion for backtesting | 2012 |
+| **Bank of America Merrill Lynch** | Software Development Engineer — ETF processing ↔ order management | 2008 – 2012 |
+| **Adobe Systems** | Computer Scientist — core engineering on Adobe Fireworks; led a team of 7 on Fireworks CS3 | 2000 – 2008 |
+
+### 🛠️ Toolbox
+
+**Languages** · C · C++ · Java · Python · Scala · F# · TypeScript<br>
+**Data & streaming** · OpenSearch · Data Prepper · Apache Flink · Apache Spark · Kafka · Kinesis · Trino<br>
+**Cloud** · AWS (CDK, EMR, OpenSearch, DynamoDB, Kinesis, CloudWatch, Bedrock) · Azure<br>
+**Databases** · Postgres + pgvector · SQL Server · DynamoDB · Cosmos DB · Redis<br>
+**Ops** · Docker · Prometheus · Jenkins · NGINX · GraphQL
+
+### 🎓 Education
+
+**M.S., Quantitative Finance** — Columbia University · **B.S., Computer Science & Engineering** — Jadavpur University
 
 ---
 
